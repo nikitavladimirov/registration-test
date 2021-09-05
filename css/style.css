@@ -33,6 +33,13 @@ html, body {
    display: block;
  }
 
+@media (max-width: 500px) {
+  .btn-grad {
+    font-size: 12px;
+    padding: 20px!important;
+  }
+}
+
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
