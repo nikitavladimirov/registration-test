@@ -26,9 +26,7 @@ $(function() {
             contentType : false,
             data: formData,
             success: function(response) {
-                console.log(response)
                 let json = JSON.parse(response)
-                console.log(json)
                 if (!json.checkEmail) {
                     addErrorMessage(errorMessages.checkEmail)
                 }
