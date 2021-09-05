@@ -39,3 +39,12 @@ html, body {
    text-decoration: none;
  }
 
+.success-card {
+  display: none;
+  font-size: 20px;
+}
+
+.message-error {
+  color: red;
+}
+

@@ -18,18 +18,21 @@
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12 col-md-9 col-lg-7 col-xl-6">
                     <div class="card">
-                        <div class="card-body p-5">
+                        <div class="card-body p-5 registration-card">
                             <h2 class="text-uppercase text-center mb-5">Регистрация</h2>
                             <form id="registration">
-                                <input type="text" class="form-control form-control-lg mb-4" placeholder="Имя">
-                                <input type="text" class="form-control form-control-lg mb-4" placeholder="Фамилия"/>
-                                <input type="email" class="form-control form-control-lg mb-4" placeholder="Email">
-                                <input type="password" class="form-control form-control-lg mb-4" placeholder="Пароль"/>
-                                <input type="password" class="form-control form-control-lg mb-4" placeholder="Повторите пароль"/>
-                                <div class="d-grid">
-                                    <button type="submit" name="reg" class="btn btn-grad">Отправить</button>
+                                <input name='name' type="text" class="form-control form-control-lg mb-4" placeholder="Имя">
+                                <input name='surname' type="text" class="form-control form-control-lg mb-4" placeholder="Фамилия"/>
+                                <input name='email' type="email" class="form-control form-control-lg mb-4" placeholder="Email">
+                                <input name='password' type="password" class="form-control form-control-lg mb-4" placeholder="Пароль"/>
+                                <input name='passwordRepeat' type="password" class="form-control form-control-lg mb-4" placeholder="Повторите пароль"/>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-grad" type="submit"> Отправить</button>
                                 </div>
                             </form>
+                        </div>
+                        <div class="card-body p-5 text-center success-card">
+                            Вы успешно зарегистрировались!
                         </div>
                     </div>
                 </div>
